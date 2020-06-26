@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MvvmProject</string>
+
+    <string name="company_name">Company Name</string>
+    <string name="company_location">Company Location</string>
+    <string name="add_button">ADD</string>
+</resources>
