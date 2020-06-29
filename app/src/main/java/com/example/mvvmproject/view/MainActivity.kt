@@ -42,6 +42,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AddCompanyActivity::class.java)
             startActivity(intent)
         }
+
+        nextBtn.setOnClickListener {
+            val intent = Intent(this, MuseumActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun deleteDialog(companyItem: CompanyItem) {

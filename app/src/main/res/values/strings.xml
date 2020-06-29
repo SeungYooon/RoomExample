@@ -4,4 +4,9 @@
     <string name="company_name">Company Name</string>
     <string name="company_location">Company Location</string>
     <string name="add_button">ADD</string>
+
+    <string name="empty_list">No museums found!</string>
+    <string name="an_error_occurred">An error occurred</string>
+    <string name="mvvm_btn">M</string>
+    <string name="search">Search</string>
 </resources>
