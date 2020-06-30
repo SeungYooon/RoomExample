@@ -1,4 +1,4 @@
-package com.example.mvvmproject.util
+package com.example.mvvmproject.dto
 
 import androidx.lifecycle.LiveData
 import androidx.room.*

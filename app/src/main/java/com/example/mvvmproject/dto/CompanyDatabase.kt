@@ -1,10 +1,9 @@
-package com.example.mvvmproject.util
+package com.example.mvvmproject.dto
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.mvvmproject.dto.CompanyItem
 
 @Database(entities = [CompanyItem::class], version = 2)
 abstract class CompanyDatabase : RoomDatabase() {
