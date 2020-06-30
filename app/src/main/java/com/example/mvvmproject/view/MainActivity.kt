@@ -7,7 +7,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.mvvmproject.*
-import com.example.mvvmproject.base.CompanyViewModel
+import com.example.mvvmproject.viewmodel.CompanyViewModel
 import com.example.mvvmproject.dto.CompanyItem
 import com.example.mvvmproject.util.adapter.CompanyAdapter
 import kotlinx.android.synthetic.main.activity_main.*
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         nextBtn.setOnClickListener {
-            val intent = Intent(this, MuseumActivity::class.java)
+            val intent = Intent(this, UserActivity::class.java)
             startActivity(intent)
         }
     }

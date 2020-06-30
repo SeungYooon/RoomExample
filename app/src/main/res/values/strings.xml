@@ -8,5 +8,12 @@
     <string name="empty_list">No museums found!</string>
     <string name="an_error_occurred">An error occurred</string>
     <string name="mvvm_btn">M</string>
+    <string name="viewRepository">View repository</string>
     <string name="search">Search</string>
+    <string name="StringValue">image does not open</string>
+    <string name="follower">follower:</string>
+    <string name="following">following:</string>
+    <string name="description">Description</string>
+    <string name="language">Language</string>
+    <string name="noResponse">No Result</string>
 </resources>

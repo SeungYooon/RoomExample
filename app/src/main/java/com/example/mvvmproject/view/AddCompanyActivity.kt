@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProviders
 import com.example.mvvmproject.dto.CompanyItem
-import com.example.mvvmproject.base.CompanyViewModel
+import com.example.mvvmproject.viewmodel.CompanyViewModel
 import com.example.mvvmproject.R
 import kotlinx.android.synthetic.main.activity_add.*
 

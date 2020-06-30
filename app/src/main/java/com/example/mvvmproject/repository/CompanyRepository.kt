@@ -1,10 +1,10 @@
-package com.example.mvvmproject.base
+package com.example.mvvmproject.repository
 
 import android.app.Application
 import androidx.lifecycle.LiveData
 import com.example.mvvmproject.dto.CompanyItem
-import com.example.mvvmproject.util.CompanyDao
-import com.example.mvvmproject.util.CompanyDatabase
+import com.example.mvvmproject.dto.CompanyDao
+import com.example.mvvmproject.dto.CompanyDatabase
 import java.lang.Exception
 
 class CompanyRepository(application: Application) {
