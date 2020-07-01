@@ -1,9 +1,15 @@
 package com.example.mvvmproject.ui.base.main.view.viewmodel
 
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
+import com.example.mvvmproject.data.model.GithubItem
+import com.example.mvvmproject.data.model.Item
 import com.example.mvvmproject.data.repository.MainRepository
 import com.example.mvvmproject.util.Resource
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.schedulers.Schedulers
 import kotlinx.coroutines.Dispatchers
 import java.lang.Exception
 
