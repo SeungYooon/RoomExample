@@ -11,10 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.DetailActivity" />
-        <activity android:name=".view.UserActivity" />
-        <activity android:name=".view.AddCompanyActivity" />
-        <activity android:name=".view.MainActivity">
+        <activity android:name=".ui.base.main.view.UserActivity"></activity>
+        <activity android:name=".ui.base.main.view.DetailActivity" />
+        <activity android:name=".ui.base.main.view.GitActivity" />
+        <activity android:name=".ui.base.main.view.AddCompanyActivity" />
+        <activity android:name=".ui.base.main.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
